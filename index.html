@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practica</title>
+</head>
+<body>
+
+    <form class="form" id="form">
+            
+        <label id="title">PUNTO MEDIO</label>
+
+        <label >Ingrese limite superios</label>
+        <input id="superior" type="number" placeholder="limite superior">
+    
+        <label >Ingrese limite inferior</label>
+        <input id="inferior" type="number" placeholder="limite inferior">
+    
+        <label >Ingrese el objetivo</label>
+        <input id="objetivo" type="number" placeholder="Objetivo">
+    
+        <label >Ingrese margen de error</label>
+        <input id="error" type="number" placeholder="Error">
+
+        <div id='resultados'>
+            <label id="resultado"></label>
+            <label id="iteraciones"></label>
+        </div>
+    
+    </form>
+
+    <button id="button" onclick="enviar()">Enviar</button>
+
+    <script src="./Calculos.js"></script>
+
+</body>
+</html>

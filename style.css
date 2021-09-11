@@ -1,0 +1,56 @@
+.form {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:cornflowerblue;
+    border-radius: 0 0 15px 15px;
+}
+
+.form label{
+    color: white;
+    margin: auto;
+}
+
+.form input {
+    width: 80%;
+    height: 25px;
+    margin: auto;
+    border-color: transparent;
+    border-radius: 15px;
+}
+
+#button {
+    padding: 15px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    width: 100px;
+}
+
+#resultado{
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#iteraciones{
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#title{
+    font-size: 25px;
+}
+
+#resultados{
+    margin: auto;
+}
